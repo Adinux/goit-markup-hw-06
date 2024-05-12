@@ -331,6 +331,59 @@
 <div data-modal class="is-hidden">
 <div data-modal-content>
 <button data-modal-close type="button">X</button>
+<h2 class="modal-title">Leave your information and we'll call you back</h2>
+<form name=modal-form class="modal-form">
+    <label class="modal-form-position">
+        Name
+        <input 
+        type=text 
+        name="username" 
+        class="modal-form-input" />
+        <svg width="12px" height="12px">
+            <use href="./images/icons/form-icons.svg#icon-person">
+            </use>
+        </svg>
+    </label>
+    <label class="modal-form-position">
+        Telephone<input type="phone" name="userphone" class="modal-form-input" />
+        <svg width="12px" height="12px">
+            <use href="./images/icons/form-icons.svg#icon-phone">
+            </use>
+        </svg>
+    </label>
+    <label class="modal-form-position">
+        E-mail
+        <input type="email" name="usermail" class="modal-form-input" />
+        <svg width="12px" height="12px">
+            <use href="./images/icons/form-icons.svg#icon-email">
+            </use>
+        </svg>
+    </label>
+    <label class="modal-form-position">
+        Comments
+        <textarea name="comments" placeholder="Enter the text" class="modal-form-comments">
+        </textarea>
+    </label>
+    <label class="modal-form-position modal-form-checked">
+        <input 
+        type="checkbox" 
+        name="agree" 
+        value="agree"
+        class="modal-form-input" />
+        <span class="replace-checkbox modal-checkbox-position">
+            <svg>
+                <use href="./images/icons/form-icons.svg#icon-check-mark">
+                </use>
+            </svg>
+        </span>
+        I agree with the letter and accept the <a href="#" class="condition">Terms and Conditions</a>
+        </label>
+
+        <button type="submit" class="modal-form-btn">Send</button>
+
+
+</form>
+
 </div>
 </div>
 
