@@ -841,7 +841,7 @@ top: 13px;
 }
 
 .modal-form-input:hover,
-.modal-form-comments:hover
+.modal-form-comments:hover,
 .modal-form-input:focus,
 .modal-form-comments:focus {
     border-color: var(--light-blue);
