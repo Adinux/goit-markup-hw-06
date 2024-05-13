@@ -690,6 +690,7 @@ padding-top: 28px;
     margin-top: 5px;
     margin-left: 12px;
     position: relative;
+    cursor: pointer;
     
 }
 
@@ -700,6 +701,7 @@ width: 24px;
 height: 24px;
 right: 20px;
 top: 13px;
+
 
 }
 
